@@ -20,6 +20,10 @@ section {
     padding: 15px;
 }
 
+.titulo {
+    font-size: 1.5em;
+}
+
 .tabuada {
     text-align: center;
     margin: auto;
@@ -36,6 +40,11 @@ section {
 .subtitulo {
     text-align: center;
     
+}
+
+.linkinst {
+    color: white;
+    text-decoration: none;
 }
 
 footer > p {
