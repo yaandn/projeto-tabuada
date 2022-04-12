@@ -1,6 +1,6 @@
 function clicar() {
     let num = document.getElementById('ntxt')       
-    let tab = document.getElementById('seltab')
+    let tab = document.querySelector('.tabuada')
     let sub = document.querySelector('.subtitulo')
     if (num.value.length == 0) {
         window.alert('[ERRO] Digite um número')
@@ -10,9 +10,8 @@ function clicar() {
         let c = 1
         tab.innerHTML = ''
         while (c <= 10) {
-            let item = document.createElement('option')
-            item.text = `${n} x ${c} = ${n*c}`
-            tab.appendChild(item) // adi
+            tab.innerHTML += `${n} x ${c} = ${n*c} <br>`
+            
             c++
         }
     }
