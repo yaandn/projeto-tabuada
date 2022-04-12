@@ -6,7 +6,8 @@ function clicar() {
         window.alert('[ERRO] Digite um número')
     } else {
         let n = (num.value)
-        sub.innerHTML = `Abaixo está a tabuada do ${n}`
+        sub.innerHTML = `<hr>Abaixo está a tabuada do ${n}<hr>`
+        sub.style.padding = '5px'
         let c = 1
         tab.innerHTML = ''
         while (c <= 10) {
