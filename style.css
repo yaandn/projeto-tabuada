@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(0, 137, 228);
+    font: normal 15pt arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+
+
+section {
+    background-color: white;
+    min-width: 320px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.401);
+    padding: 15px;
+}
+
+.tabuada {
+    text-align: center;
+    margin: auto;
+    
+}
+
+#seltab {
+    
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.subtitulo {
+    text-align: center;
+    
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic ;
+    font-weight:normal ;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
