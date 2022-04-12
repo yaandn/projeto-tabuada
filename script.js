@@ -11,7 +11,6 @@ function clicar() {
         tab.innerHTML = ''
         while (c <= 10) {
             tab.innerHTML += `${n} x ${c} = ${n*c} <br>`
-            
             c++
         }
     }
